@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;   
+}
+
+html, select, button{
+   font-family: 'Josefin Sans', sans-serif;
+   color: #05386b ;
+   font-size: medium;
+}
+
+.container{
+   height: 100vh;
+   background-image: linear-gradient(to right, #379683, #05386b);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   line-height: 22px;
+}
+
+.cotization{
+   padding: 15px 30px;
+   background: #5cdb95;
+   border-radius: 5px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.head{
+   color:#05386b;
+   padding: 15px;
+}
+
+.load-cotization{
+   display: none;
+   background: #8ee4af;
+   padding: 10px;
+   border: 1px solid #05386b;
+   border-radius: 5px;
+   text-align: center;
+}
+
+.brand{
+   margin: 15px 0;
+}
+
+select{
+   width: 100%;
+   padding: 10px;
+   border-radius: 5px;
+   background: #8ee4af;
+   outline: none;
+   appearance: none;
+}
+
+
+
+.year{
+   margin-bottom: 15px;
+}
+
+.type-insurance{
+   margin-bottom: 15px;
+}
+
+.type-insurance p{
+   margin-bottom: 8px;
+}
+
+.spiner{
+   display: none;
+   margin-bottom: 15px;
+   font-size: 30px;
+   text-align: center;
+}
+
+.resumen{
+   display: none;
+   margin-bottom: 15px;
+   text-align: center;
+}
+
+.head-resumen{
+   background: #8ee4af;
+   border-style: solid;
+   padding: 10px;
+   border: 1px solid #05386b;
+   border-radius: 5px 5px 0 0;
+}
+
+.body-resumen{
+   padding: 10px;
+   border-style: solid;
+   border-width: 0 1px 1px 1px;
+   border-radius: 0 0 5px 5px;
+}
+
+
+#btn-quate{
+   width: 100%;
+   margin-bottom: 10px;
+   border: none;
+   outline: none;
+   padding: 10px;
+   background:  #05386b;
+   color: #edf5e1;
+   border-radius: 5px;
+}
+
+#btn-quate:hover{
+   background: #0f59a3;
+}
+
+
