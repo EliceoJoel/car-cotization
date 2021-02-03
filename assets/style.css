@@ -40,11 +40,20 @@ html, select, button{
    text-align: center;
 }
 
-.load-cotization{
-   display: none;
-   background: #8ee4af;
+.correct{
+   background: #76f1a5;
+   color: green;
    padding: 10px;
-   border: 1px solid #05386b;
+   border: 1px solid green;
+   border-radius: 5px;
+   text-align: center;
+}
+
+.error{
+   background: #faa195;
+   color: red;
+   padding: 10px;
+   border: 1px solid red;
    border-radius: 5px;
    text-align: center;
 }
@@ -105,7 +114,7 @@ select{
 }
 
 
-#btn-quate{
+#btn-quote{
    width: 100%;
    margin-bottom: 10px;
    border: none;
@@ -116,7 +125,7 @@ select{
    border-radius: 5px;
 }
 
-#btn-quate:hover{
+#btn-quote:hover{
    background: #0f59a3;
 }
 

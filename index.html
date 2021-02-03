@@ -10,55 +10,31 @@
 </head>
 <body>
    <div class="container">
-      <div class="cotization">
+      <form  action="#" class="cotization" id="form">
          <div class="head">
             <h1>QUOTE YOUR CAR</h1>
          </div>
          <div class="body">
-            <div class="load-cotization">
-               <p>Making your quote...</p>
-            </div>
             <div class="brand">
                <p>Brand:</p>
                <select name="brand" id="brand">
-                  <option value="selected" selected>Select brand</option>
-                  <option value="american">American</option>
-                  <option value="asian">Asian</option>
-                  <option value="european">European</option>
+                  <option value="">Select brand</option>
+                  <option value="1">American</option>
+                  <option value="2">Asian</option>
+                  <option value="3">European</option>
                </select>
             </div>
             <div class="year">
                <p>Year:</p>
                <select name="year" id="year">
-                  <option value="2000">2000</option>
-                  <option value="2001">2001</option>
-                  <option value="2002">2002</option>
-                  <option value="2003">2003</option>
-                  <option value="2004">2004</option>
-                  <option value="2005">2005</option>
-                  <option value="2006">2006</option>
-                  <option value="2007">2007</option>
-                  <option value="2008">2008</option>
-                  <option value="2009">2009</option>
-                  <option value="2010">2010</option>
-                  <option value="2011">2011</option>
-                  <option value="2012">2012</option>
-                  <option value="2013">2013</option>
-                  <option value="2014">2014</option>
-                  <option value="2015">2015</option>
-                  <option value="2016">2016</option>
-                  <option value="2017">2017</option>
-                  <option value="2018">2018</option>
-                  <option value="2019">2019</option>
-                  <option value="2020">2020</option>
-                  <option value="2021">2021</option>
+                  <!-- years here -->
                </select>
             </div>
             <div class="type-insurance">
                <p>Type of insurance:</p>
-               <input type="radio" name="insurance" id="basic">
+               <input type="radio" name="insurance" id="basic" value="basic" checked>
                <label for="basic">Basic</label>
-               <input type="radio" name="insurance" id="complete">
+               <input type="radio" name="insurance" id="complete" value="complete">
                <label for="complete">Complete</label>
             </div>
             <div class="spiner">
@@ -75,11 +51,11 @@
                   <p><b>Total:</b> <b>$1233</b></p>
                </div>
             </div>
-            <div class="btn-quate">
-               <button type="submit" id="btn-quate">Quate</button>
+            <div class="btn-quote">
+               <button type="submit" id="btn-quote">Quate</button>
             </div>
          </div>
-      </div>
+      </form>
    </div>
 
    <script src="assets/app.js"></script>
