@@ -41,6 +41,7 @@ html, select, button{
 }
 
 .correct{
+   display: none;
    background: #76f1a5;
    color: green;
    padding: 10px;
@@ -50,6 +51,7 @@ html, select, button{
 }
 
 .error{
+   display: none;
    background: #faa195;
    color: red;
    padding: 10px;
@@ -88,7 +90,7 @@ select{
 .spiner{
    display: none;
    margin-bottom: 15px;
-   font-size: 30px;
+   font-size: 40px;
    text-align: center;
 }
 
