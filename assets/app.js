@@ -81,7 +81,7 @@ Interface.prototype.showResult = function(insurance, total){
       case '2':
          brand = "Asian";
          break;
-      case '1':
+      case '3':
          brand = "European";
          break;
    }
